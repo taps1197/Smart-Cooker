@@ -1,0 +1,122 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+	<title>Photography Form Responsive Widget Template :: w3layouts</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Photography Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements"
+	/>
+	<!-- <script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script> -->
+	<!-- Meta tag Keywords -->
+	<!-- css files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<!-- //css files -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- header -->
+	<h1>
+		<span>S</span>mart
+		<span>C</span>ooker</h1>
+	<!-- //header -->
+	<!-- content -->
+	<div class="main-content-agile">
+		<div class="sub-main-w3">
+			<form action="connect.php" method="post">
+				<!-- <div class="sub-main-w3"> -->
+
+				<div  class="form-style-agile form-grids-w62" >
+						<label>What You Want To Eat</label>
+											<select name="dish" id="dish" class="category" required="">
+							<option value="1">Veg Biryaani</option>
+							<option value="2">Maggi</option>
+							<option value="3">Daal</option>
+							</select>
+					</div>
+				<div class="w3layouts-grids">
+					<div class="form-style-agile form-grids-w3l">
+						<label>Select Date</label>
+						<input id="datepicker" placeholder="Select Date" name="date" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'yyyy/mm/dd';}"
+						    required="">
+					</div>
+					<div class="form-style-agile form-grids-w3l">
+						<label>Select Time</label>
+						<input type="text" id="timepicker" name="time" class="timepicker form-control" placeholder="Select Time" value=""  required="">
+					</div>
+				</div>
+				<div id="serve" class="sub-main-w3  form-grids-w3l">
+					<div class="form-style-agile ">
+						<label>How many servings do you need?</label>
+					</div>
+
+					<div  class="form-style-agile form-grids-w31">
+						<select name ="serve" class="category" required="">
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">More Than Two</option>
+						</select>
+					</div>
+
+
+				</div>
+
+				<input type="submit" value="Start Cooking" id="sub" >
+			</form>
+		</div>
+	</div>
+	<!-- content -->
+	<!-- footer -->
+	<!-- <div class="footer">
+		<h2>&copy; 2018 Photography Form. All rights reserved | Design by
+			<a href="http://w3layouts.com">W3layouts</a>
+		</h2>
+	</div>
+	<!-- //footer -->
+
+
+	<!-- js -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+
+	<!-- date-->
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function () {
+			$("#datepicker,#datepicker1").datepicker();
+		});
+	</script>
+	<!-- //date -->
+
+	<!-- time -->
+	<script src="js/wickedpicker.js"></script>
+	<script>
+		$('.timepicker').wickedpicker({
+			twentyFour: false
+		});
+	</script>
+	<link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+	<!-- //time -->
+
+</body>
+
+</html>
