@@ -8,8 +8,8 @@ print_r($_POST);
  // echo $_POST['dish'];
 file_put_contents('postdata.txt', var_export($_POST, true));
 if(mysqli_query($conn,"INSERT INTO smart_cooker( dish, datepick, timepick, serving ) VALUES('$dis','$dat','$tim','$serv')"))
-      //echo "Succesfully inserted";
-      <a  href="">
+      echo "Succesfully inserted";
+//website to be added       <a  href="">
       else
         echo "Failed";
  ?>
